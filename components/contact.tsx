@@ -30,7 +30,7 @@ export default function Contact() {
               your e-mail address
             </span>
             <span
-              className={`${handjet.className} uppercase text-5xl absolute top-[84px] right-[68px]`}
+              className={`${handjet.className} text-black uppercase text-5xl absolute top-[84px] right-[68px]`}
             >
               join
             </span>

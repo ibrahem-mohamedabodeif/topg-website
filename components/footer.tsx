@@ -6,7 +6,7 @@ const handjet = Handjet({
 
 export default function Footer() {
   return (
-    <div className="bg-white flex items-center justify-between uppercase px-60 py-5">
+    <div className="bg-white text-black flex items-center justify-between uppercase px-60 py-5">
       <div className="flex flex-col">
         <h1 className={`${handjet.className} text-4xl font-extrabold pb-10`}>
           MY ACCOUNT

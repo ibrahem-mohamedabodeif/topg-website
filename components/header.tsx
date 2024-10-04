@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <div className="relative overflow-hidden bg-gray-100">
       <motion.div
-        className={`${handjet.className} text-2xl px-5 h-10 flex items-center justify-between uppercase`}
+        className={`${handjet.className} text-2xl px-5 h-10 flex items-center justify-between uppercase text-black`}
         initial={{ x: "-100%" }} // بداية الحركة من اليمين
         animate={{ x: "100%" }} // الحركة نحو اليسار
         transition={{
